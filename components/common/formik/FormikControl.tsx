@@ -12,13 +12,7 @@ import FormikCity from "./formikCity";
 import React from "react";
 import FormikRadio from "./FomikRadio";
 
-interface ControlProps {
-  control: string;
-  // name: string;
-  // label?: string | React.Component | any;
-}
-
-function FormikControl({ control, ...props }) {
+function FormikControl({ control, ...props }: any) {
   switch (control) {
     case "input":
       return <FormikInput {...props} />;
