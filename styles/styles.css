@@ -1,0 +1,55 @@
+
+
+@keyframes ckw {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+.ui.input input,
+.mantine-Input-wrapper input,
+.ui.dropdown,
+.school-location-style select {
+  @apply rounded-[12px] bg-[#f5f8fa] !important;
+}
+
+.school-location-style select:focus,
+.school-location-style select:focus-visible {
+  @apply border-[#85b7d9] border-[1px] outline-none !important;
+}
+.learning-interests .ui.checked.checkbox label::before {
+  @apply bg-yellow-500 border-none !important;
+}
+.learning-interests .ui.checkbox label::after {
+  font-size: 10px !important;
+  top: -2px !important;
+  color: #333 !important;
+}
+.react-tel-input input {
+  @apply pl-[3.75rem] !important;
+}
+.phone-input input {
+  @apply rounded-[12px] !important;
+}
+.phone-input.error-input input {
+  @apply border-[#e0b4b4] text-[#9f3a38] !important;
+}
+
+.Toastify__toast--success {
+  background: #00c781 !important;
+  color: #FFF !important;
+  font-weight: 200;
+}
+
+.Toastify__toast--error {
+  background: red !important;
+  color: #FFF !important;
+  font-weight: 200;
+}
+.Toastify__toast-icon {
+  color: #fff;
+  fill: #fff
+}
